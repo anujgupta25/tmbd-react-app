@@ -1,0 +1,33 @@
+.hovercard {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: -10px;
+  font-size: 12px;
+  height: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hovercard .hovertitle {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.card:hover .hovercard {
+  height: 85px !important;
+}
+.card {
+  cursor: pointer;
+  position: relative;
+  width: 250px;
+  height: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
